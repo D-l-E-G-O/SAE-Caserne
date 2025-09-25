@@ -32,6 +32,24 @@ L’application permet de gérer les pompiers, les véhicules, les interventions
 - Durée du projet : **7 semaines**
 
 
+## Installation et exécution
+
+1. **Cloner le dépôt :**
+    ```bash
+    git clone https://github.com/mon-utilisateur/sae-caserne.git
+    cd sae-caserne
+2. Ouvrir le projet :
+    Lancer Visual Studio
+    Ouvrir la solution .sln du projet
+
+3. Installer SQLite :
+    Aller dans Outils → Gestionnaire de packages NuGet → Gérer les packages pour la solution
+    Rechercher et installer : System.Data.SQLite
+
+4. Lancer l’application :
+    Cliquer sur ▶️ Exécuter dans Visual Studio
+
+
 ## Fonctionnalités principales
 
 - Gestion des pompiers (ajout, suppression, modification, consultation)  
